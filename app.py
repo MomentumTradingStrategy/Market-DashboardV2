@@ -561,7 +561,7 @@ def style_grouped(df: pd.DataFrame):
 # UI
 # =========================
 st.title("Market Overview Dashboard")
-st.caption(f"As of: {_asof_ts()} • Auto data: Yahoo Finance • RS Benchmark: {BENCHMARK} • History: {PRICE_HISTORY_PERIOD}")
+st.caption(f"As of: {_asof_ts()} • Auto data: Yahoo Finance • RS Benchmark: {BENCHMARK}")
 
 with st.sidebar:
     st.subheader("Controls")
